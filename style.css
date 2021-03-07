@@ -1,0 +1,40 @@
+body {
+  color: #fff;
+  text-align: center;
+  background: url(./bbg.gif) repeat center right/ cover;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: url(./bg.png) no-repeat center center/ cover;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.shooter {
+  background: url(./ship.gif) no-repeat center center/ cover;
+  transform: scale(2);
+}
+
+.invader {
+  background: url(./alien.png) no-repeat center center/ cover;
+  transform: scale(1.5);
+}
+
+.boom {
+  background: url(./boom.gif) no-repeat center center/ cover;
+  transform: scale(1.5);
+}
+
+.laser {
+  background: url(./beam.gif) no-repeat center center/ cover;
+  transform: scale(1.5);
+}
